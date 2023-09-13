@@ -1,0 +1,66 @@
+.container
+{
+    margin-bottom: 100px;
+}
+.btn1
+{
+    margin: 20px 5px 10px 0;
+    width: 65px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2
+{
+    width: 65px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box_row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#click1, #click2, #click3
+{
+    width: 350px;
+    padding: 5px 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4c908a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#show1, #show3
+{
+    display: none;
+    padding: 100px;
+        padding: 100px;
+    text-align: center;
+    background-color: #4c908a;
+    color: white;
+    font-weight: 700;
+    border: solid 1px #9d9191;
+    border-radius: 5px;
+
+}
+#show2
+{
+    padding: 100px;
+    text-align: center;
+    background-color: #4c908a;
+    color: white;
+    font-weight: 700;
+    border: solid 1px #9d9191;
+    border-radius: 5px;
+    cursor: pointer;
+}
